@@ -1,0 +1,151 @@
+/* ccs for CRUD aboutus page */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+    color: whitesmoke;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif, monospace;
+}
+
+body{
+    background-color: #353b43;
+    height: 800px;
+    width: 100%;
+}
+
+.header{
+    background-image:  linear-gradient(to right, #1d2024, #353b43);
+    color: white;
+    height: 80px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo{
+    position: absolute;
+    left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.information-container{
+    margin-top: 10px;
+    margin-left: 20px; 
+}
+
+.button1{
+    position: relative;
+    background-color: #1d2024;
+    font-weight: bolder;
+    padding: 10px;
+    left: 85%;
+    top: 100px;
+}
+
+.button2{
+    position: relative;
+    background-color: #1d2024;
+    font-weight: bolder;
+    padding: 10px;
+    left: 75.5%;
+    top: 150px;
+}
+
+.button3{
+    position: relative;
+    background-color: #1d2024;
+    font-weight: bolder;
+    bottom: 40px;
+    padding: 10px;
+    left: 85%;
+}
+
+.button4{
+    position: relative;
+    background-color: #1d2024;
+    font-weight: bolder;
+    bottom: 40px;
+    padding: 10px;
+    left: 85%;
+    bottom: 134%;
+}
+
+.login-label{
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 1.15em;
+    float: left;
+    display: block;
+    clear: both;
+}
+
+.user-input{
+    font: 1.15em;
+    padding: 10px;
+    margin: 5px;
+    float: right;
+}
+
+.register-button{
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    float: right;
+    margin: 5px;
+    margin-top: 10px;
+    clear: both;
+}
+
+.add-label{
+    margin-left:10px;
+    margin-top: 5px;
+}
+
+.add-input{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: black;
+    font-family: 'ubuntu';
+}
+
+.add-button{
+    background-color: #1d2024;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 5px;
+    margin-top: 10px; 
+}
+
+.link{
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.rightline{
+	border-left: 2px solid #353b43;
+    height: 700px;
+    position: absolute;
+    margin-left: 7px;
+    position: absolute;
+    right: 21px;
+}
+
+.rightcircle{
+    width: 15px;
+	height: 15px;
+	background: #353b43;
+	border-radius: 50%;
+    position: absolute;
+    right: 15px;
+}

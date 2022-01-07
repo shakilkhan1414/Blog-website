@@ -1,0 +1,71 @@
+/* Page for admin css */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+
+.box-profile{
+    border: 3px solid white;
+    height: 600px;
+    width: 450px;
+    margin: auto;
+    position: relative;
+    bottom: 80px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px 6px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.avatar{
+    z-index: 1;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+.avatar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.username{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 80px;
+    font-family: 'ubuntu';
+    color: whitesmoke;
+}
+
+.title{
+    text-align: center;
+}
+
+.avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profileicon{
+    width:35px;
+    height:35px; 
+    position: relative;
+    bottom: 5px;
+    filter: invert(50%);
+    transition-duration: 0.4s;
+}
+
+.profileicon:hover{
+    transition-duration: 0.4s;
+    filter: invert(100%);
+}
+
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}

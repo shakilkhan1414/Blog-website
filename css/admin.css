@@ -1,0 +1,111 @@
+/* Page for admin css */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+
+.box-dashboard{
+    border: 3px solid white;
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px 6px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.box-profile{
+    border: 3px solid white;
+    height: 600px;
+    width: 450px;
+    margin: auto;
+    position: relative;
+    bottom: 80px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px 6px;
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+.dashboard-title{
+    margin-left: 20px;
+    font-family: 'ubuntu';
+}
+
+.line{
+    border: 0.5px solid whitesmoke;
+    width: 300px;
+}
+
+.contents{
+    position: relative;
+    font-family: 'ubuntu';
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.title{
+    text-align: center;
+}
+
+.avatar{
+    z-index: 1;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+}
+
+.avatar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.username{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 80px;
+    font-family: 'ubuntu';
+    color: whitesmoke;
+}
+
+.li-wrap{
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.li-icon{
+    border-radius: 5%;
+    width: 250px;
+    height: 150px;
+    opacity: 70%;
+}
+
+.profileicon{
+    width:35px;
+    height:35px; 
+    position: relative;
+    bottom: 5px;
+    filter: invert(50%);
+    transition-duration: 0.4s;
+}
+
+.profileicon:hover{
+    transition-duration: 0.4s;
+    filter: invert(100%);
+}
+
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
